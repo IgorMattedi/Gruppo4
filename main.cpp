@@ -419,7 +419,7 @@ void es57() {
               if (movimento[mvm].codice == prodotti[q].codice) {
                 if (prodotti[q].giacenza + movimento[vov].quantita < 0) {
                   outputMovimenti[t].errore = 2;
-                  //cout << "ARTICOLO: " << prodotti[q].descrizione << " Q/TA: " << prodotti[q].giacenza << " - quantita' insufficente -" << endl;
+                  //cout << "ARTICOLO: " << prodotti[q].descrizione << " Q/TA: " << prodotti[q].giacenza << " - quantita insufficente -" << endl;
 
                 } else {
                   prodotti[q].giacenza = prodotti[q].giacenza + movimento[vov].quantita;
