@@ -36,13 +36,13 @@ int main()
           cout << "0. Fine!" << endl;
         cin >> scelta;
         if(cin.fail()){
-      cout << "wrong number" << endl;
+      cout << "numero sbaia" << endl;
       cin.clear();
       scelta = -1;
     } else {
       switch(scelta){
         case 0:
-          cout << "good bye" << endl;
+          cout << "arrivederci" << endl;
           break;
         case 1:
           es1();
@@ -419,7 +419,7 @@ void es57() {
               if (movimento[mvm].codice == prodotti[q].codice) {
                 if (prodotti[q].giacenza + movimento[vov].quantita < 0) {
                   outputMovimenti[t].errore = 2;
-                  //cout << "ARTICOLO: " << prodotti[q].descrizione << " Q/TA: " << prodotti[q].giacenza << " - quantita insufficente -" << endl;
+                  //cout << "ARTICOLO: " << prodotti[q].descrizione << " Q/TA: " << prodotti[q].giacenza << " - quantita' insufficente -" << endl;
 
                 } else {
                   prodotti[q].giacenza = prodotti[q].giacenza + movimento[vov].quantita;

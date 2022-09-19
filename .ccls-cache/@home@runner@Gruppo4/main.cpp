@@ -36,7 +36,7 @@ int main()
           cout << "0. Fine!" << endl;
         cin >> scelta;
         if(cin.fail()){
-      cout << "wrong number" << endl;
+      cout << "numero sb" << endl;
       cin.clear();
       scelta = -1;
     } else {
